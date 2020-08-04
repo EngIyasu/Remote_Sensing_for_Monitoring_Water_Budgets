@@ -579,18 +579,9 @@
   },
   {
    "cell_type": "code",
-   "execution_count": 15,
+   "execution_count": 23,
    "metadata": {},
-   "outputs": [
-    {
-     "name": "stderr",
-     "output_type": "stream",
-     "text": [
-      "/Users/iyasueibed/anaconda3/envs/geo_spatial_env/lib/python3.7/site-packages/rasterstats/io.py:301: UserWarning: Setting nodata to -999; specify nodata explicitly\n",
-      "  warnings.warn(\"Setting nodata to -999; specify nodata explicitly\")\n"
-     ]
-    }
-   ],
+   "outputs": [],
    "source": [
     "### Wet Season\n",
     "IMERG_wet = rio.open(imgerg_filename[0])\n",
